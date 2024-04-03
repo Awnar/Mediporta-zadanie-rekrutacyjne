@@ -72,6 +72,7 @@ namespace Mediporta.StackOverflowWebAPI.Services
             var maxUsages = tags.Sum(t => t.Count);
             foreach (var tag in tags)
             {
+                if (tag.Count < 0) throw new ArgumentException("The \"Count\" parameter cannot be negative");
                 tag.PercentageUse = 100 * (double)tag.Count / (double)maxUsages;
             }
         }
