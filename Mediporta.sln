@@ -9,7 +9,7 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediporta.StackOverflowWebAPI.UnitTests", "Mediporta.StackOverflowWebAPITests\Mediporta.StackOverflowWebAPI.UnitTests.csproj", "{54153275-96BC-41AA-A289-86CB0F894C0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediporta.StackOverflowWebAPI.IntegrationTests", "..\Mediporta.StackOverflowWebAPI.IntegrationTests\Mediporta.StackOverflowWebAPI.IntegrationTests.csproj", "{8BD6B5E8-4769-4150-A9FF-3868F6E6CC62}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediporta.StackOverflowWebAPI.IntegrationTests", "Mediporta.StackOverflowWebAPI.IntegrationTests\Mediporta.StackOverflowWebAPI.IntegrationTests.csproj", "{5DFD6DA9-A4DD-4DD9-892A-09EA7869468E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{54153275-96BC-41AA-A289-86CB0F894C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54153275-96BC-41AA-A289-86CB0F894C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54153275-96BC-41AA-A289-86CB0F894C0A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BD6B5E8-4769-4150-A9FF-3868F6E6CC62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BD6B5E8-4769-4150-A9FF-3868F6E6CC62}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BD6B5E8-4769-4150-A9FF-3868F6E6CC62}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BD6B5E8-4769-4150-A9FF-3868F6E6CC62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFD6DA9-A4DD-4DD9-892A-09EA7869468E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFD6DA9-A4DD-4DD9-892A-09EA7869468E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFD6DA9-A4DD-4DD9-892A-09EA7869468E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFD6DA9-A4DD-4DD9-892A-09EA7869468E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

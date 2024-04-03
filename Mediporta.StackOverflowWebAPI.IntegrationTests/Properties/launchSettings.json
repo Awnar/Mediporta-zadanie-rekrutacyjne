@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Mediporta.StackOverflowWebAPI.IntegrationTests": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:65087;http://localhost:65088"
+    }
+  }
+}
