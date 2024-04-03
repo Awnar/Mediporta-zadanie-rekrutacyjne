@@ -23,6 +23,7 @@ namespace Mediporta.StackOverflowWebAPI
                 // Add services to the container.
                 builder.Services.AddScoped<ITagsService, TagsService>();
                 builder.Services.AddScoped<ICacheRepository, CacheRepository>();
+                builder.Services.AddScoped<ISOApiClient, SOApiClient>();
                 builder.Services.AddStackExchangeRedisCache(options => { options.Configuration = builder.Configuration.GetConnectionString("RedisConnection"); });
                 builder.Services.AddAutoMapper(typeof(Program));
                 builder.Services.AddScoped<ErrorHandlingMiddleware>();
